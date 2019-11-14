@@ -1,0 +1,131 @@
+/* Reset general */
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+/* cabecera */
+header{
+    width:1000px;
+    height: 120px;
+    background-color: #444;
+    margin:20px auto;
+    position: relative;
+
+}
+
+
+
+
+/* logo */
+.logo{
+    width:200px;
+    height: 60px;
+    background-color: #ccc;
+    position:absolute;
+    top:30px;
+    left:30px;
+}
+/* zona de redes sociales */
+.redes{
+    position:absolute;
+    top:40px;
+    right:20px;
+    width:141px;
+    height: 41px;
+}
+.icono1,.icono2,.icono3{
+    width:42px;
+    height: 42px;
+    margin-right:2px;
+    border-radius: 50%;
+    background-color: #aaa;
+    display: inline-block;
+}
+
+
+/* barra navegacion */
+nav{
+    font-size:0px;
+    width:1000px;
+    height:48px;
+    margin:20px auto;
+    position:relative;
+ 
+}
+
+.botones{
+    font-size:1rem;
+    width:196px;
+    height: 48px;
+    background-color: #333;
+    /* margin: 0 2px; */
+    /* float:left; */
+    display:inline-block;
+}
+/* marges dels botons 2 y 4 */
+.botones:nth-child(even){
+    margin:0px 5px;
+}
+
+/* destacados superiores */
+.top{
+    font-size:0px;
+    width:1000px;
+    height: 192px;
+    margin:20px auto;
+    position: relative;
+}
+
+.top article{
+    font-size:1rem;
+    width:330px;
+    height: 192px;
+    background-color: #000;
+    display: inline-block;
+}
+
+.top article:nth-child(even){
+    margin:0px 5px;
+}
+/* parte contenido central */
+.central{
+    width:1000px;
+    height: 450px;
+    background-color: #aaa;
+    margin:auto;
+    position: relative;
+}
+
+aside.izq,aside.der{
+    width:200px;
+    height: 450px;
+    position: absolute;
+    background-color: #ccc;
+  
+}
+aside.izq{
+    left:0px;
+}
+
+aside.der{
+    right:0px;
+}
+.art-central{
+    position: absolute;
+    width:600px;
+    height: 450px;
+    background-color: #888;
+    left:200px;
+}
+/* pie de pagina */
+.pie{
+
+    width:1000px;
+    height: 70px;
+    background-color: #888;
+    margin:20px auto;
+    position: relative;
+}

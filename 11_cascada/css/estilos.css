@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+#principal{
+/*float indica que el siguiente elemento se posicione a su lado*/
+ /*Establecer ancho de la primera columna: de 580 px*/
+
+}
+
+#lateral{
+ /* Aplicar margen izquierdo a 600,
+  padding a 15 y
+   backgroung a  #e1cdff */
+  
+}
+
+body{
+
+    
+  
+}
+
+h1{
+   
+}
+
+h2{
+  
+}
+
+
+#principal h2{
+   
+}
+
+
+#principal p{
+
+  
+
+   
+}
+
+
+.introduccion{
+    /* font-size:1.5em !important;
+    color:black !important; */
+
+   
+}
+
+
+
+
+
+ /* ojo a la imagen de fondo - ruta*/
+ /*background: violet url(../images/fondo-cuerpo.png) repeat-x;*/
+

@@ -1,0 +1,60 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    text-align: center;
+    font-weight: bolder;
+    position:relative;
+    width: 120px;
+    height: 50px;
+    margin: 30px 0 0 10px;
+    color:#fff;
+
+}
+
+p{
+    padding-top: 15px;
+}
+
+.caja:hover{
+    animation: cambia-color 1s;
+   
+}
+
+@keyframes cambia-color{
+    0%{
+        background :blue;
+    }
+    50%{
+        background: red;
+        height:200px;
+    }
+
+
+}
+/*
+animation-name: el nombre del keyframe
+
+animation-duration: tiempo total de la animación
+
+animation-iteration-count: Número de repeticiones
+
+animation-delay: retardo con el que se aplicará la animación
+
+*/
+
+/* valores repetidos 
+0%,70%{
+    background :yellow;
+}
+
+*/
+
+/* OTRA NOMENCLATURA
+
+    from{
+        background :yellow;
+    }
+    to{
+        background: red;
+        height:200px;
+    }

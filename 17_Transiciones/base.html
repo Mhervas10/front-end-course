@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Transiciones 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+</head>
+
+<style>
+    div{
+        margin:10px;
+        outline: solid 1px black;
+        height: 40px;
+        width: 40px;
+    }
+    #rojo{
+        background-color: red;
+        /* transition: width 1s; */
+    }
+    #rojo:hover{
+        background-color: goldenrod;
+        width: 200px;
+    }
+    #azul{
+        background-color: blue;
+        /* transition: all 3s;
+        transition-timing-function: ease-out; */
+    }
+    #azul:hover{
+        width:200px;
+        height:200px;
+    }
+    #amarillo{
+        background-color: yellow;
+        /* transition: width 0.5s, height 2s; */
+    }
+    #amarillo:hover{
+        width:100px;
+        height:200px;
+    }
+    #verde{
+        background-color: green;
+        transition: height 5s, width 5s;
+        /* transition-delay: 0s,10s; */
+    }
+    #verde:hover{
+        width:200px;
+        height:200px;
+    }
+</style>
+<body>
+    <div id="rojo"></div>
+    <div id="azul"></div>
+    <div id="amarillo"></div>
+    <div id="verde"></div>
+</body>
+</html>

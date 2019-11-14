@@ -1,0 +1,87 @@
+*{
+	margin:10px;
+	padding:10px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+
+.header{
+	background: #000;
+}
+
+.padre{
+
+}
+
+.menu{
+	background: #5893d4;
+	
+	height:100px;
+	align-items:center;
+
+}
+	.logo{
+		background: #f7b633;
+		
+		height:30px;
+
+	}
+	.nav{
+		background: #f7b633;
+		
+		height:30px;
+	}
+	.social{
+		background: #f7b633;
+		
+		height:30px;
+	}
+.texto-principal{
+	background: #f07b3f;
+}
+	h1{
+		background:#ffd460;
+	}
+.section{
+	background: #000;
+	
+}
+	.articulos{
+		background: #4e4e6a;
+	
+	}
+		.articulo{
+			
+			
+			background: #1f6cb0;
+		}
+		.navegacion{
+			
+			background: #70a3c4;
+		
+		}
+	.aside{
+		
+		background: #f73f52;
+	}
+		.publicidad{
+			background: #ffea85;
+		}
+.footer{
+	background: #000;
+	
+	
+	
+}
+	.pie{
+		background:#e6af2e;
+		width:300px;
+		
+
+	}
+/* MEDIA QUERIES */
+
+
+
+

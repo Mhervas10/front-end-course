@@ -1,0 +1,37 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    text-align: center;
+    font-weight: bolder;
+    position:relative;
+    width: 120px;
+    height: 50px;
+    margin: 30px 0 0 10px;
+    color:#fff;
+
+}
+
+p{
+    padding-top: 15px;
+}
+
+.caja:hover{
+    /* definir animació */
+}
+/* l'animació es pot anomenar com volguen */
+@keyframes colorear{ 
+/* fase de l'animació */
+
+
+}
+
+/*
+animation-name: el nom del keyframe
+
+animation-duration: temps total de l'animació
+
+animation-iteration-count: Número de repeticions
+
+animation-delay: retard de l'animació 
+
+*/

@@ -1,0 +1,111 @@
+﻿/* FUENTE:https://uniwebsidad.com/libros/css/capitulo-2/selectores-basicos */
+
+/* Selector universal */ 
+* {
+	margin: 0;
+	padding: 0;
+  }
+/*Selector de tipo etiqueta*/
+  h1 {
+    color: red;
+  }
+/* grupar todas las reglas individuales en una sola regla con un selector múltiple */
+
+  h1, h2, h3 {
+    color: #8A8E27;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Selector descendente */
+
+  /* El selector del siguiente ejemplo selecciona todos los elementos <span> de la página que se encuentren dentro de un elemento <p> */
+  
+  /* <p>
+  ...
+  <span>texto1</span>
+  ...
+  <a href="">...<span>texto2</span></a>
+  ...
+</p> */
+
+p span { color: red; }
+
+/* En el siguiente ejemplo, el selector descendente se compone de cuatro selectores: /* El estilo se aplica solo a los elementos "em" que se encuentran dentro de "p a span" */ 
+
+p a span em { 
+    text-decoration: underline; 
+}
+
+/* El estilo se aplica a todos los elementos "p", "a", "span" y "em" */
+p, a, span, em { text-decoration: underline; }
+
+/* combinándolo con el selector universal. */
+/* el selector p * a se interpreta como todos los elementos de tipo <a> que se encuentren dentro de cualquier elemento que, a su vez, se encuentre dentro de un elemento de tipo <p> */
+
+p * a { color: red; }
+
+/* <p><a href="#">Enlace</a></p> ----> NO
+<p><span><a href="#">Enlace</a></span></p>  ---> SI */
+
+/*  */
+/* Selector de clase */
+/*  */
+
+.destacado { color: red; }
+
+/* solamente al párrafo cuyo atributo class sea igual a destacado*/
+
+p.destacado { color: red }
+
+/* Todos los elementos de tipo "p" con atributo class="aviso" */
+p.aviso { ... }
+
+/* Todos los elementos con atributo class="aviso" que estén dentro
+   de cualquier elemento de tipo "p" */
+p .aviso { ... }
+
+/* Todos los elementos "p" de la página y todos los elementos con
+   atributo class="aviso" de la página */
+p, .aviso { ... }
+
+/* es posible aplicar los estilos de varias clases CSS sobre un mismo elemento */
+
+<p class="especial destacado error">Párrafo de texto...</p>
+
+/* estilos exclusivos
+ */
+ /* "aquellos elementos de la página que dispongan de un atributo class con al menos los valores error y destacado". */
+ .error.destacado { color: blue; }
+
+ /*  */
+/* Selector de ID */
+/*  */
+
+/* Todos los elementos de tipo "p" con atributo id="aviso" */
+p#aviso { ... }
+
+/* Todos los elementos con atributo id="aviso" que estén dentro
+	de cualquier elemento de tipo "p" */
+p #aviso { ... }
+
+/* Todos los elementos "p" de la página y todos los elementos con
+	atributo id="aviso" de la página */
+p, #aviso { ... }
+
+/* Casos especiales */
+/* hace referencia al enlace con un atributo id igual a inicio que se encuentra dentro de un elemento de tipo <li> con un atributo class igual a destacado, que forma parte de una lista <ul> con un atributo id igual a menuPrincipal. */
+
+ul#menuPrincipal li.destacado a#inicio { ... }
+
+/* selecciona aquellos elementos de tipo <span> con un atributo class="especial" que estén dentro de cualquier elemento de tipo <div> que tenga un atributo class="aviso" */
+
+div.aviso span.especial { ... }
+
+
+
+
+
+
+
+  

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+<body>
+    <section>
+        <form action="procesar.php" method="get" name="formulario">
+            <!--Select de libros-->
+            <p>
+                <label for="listado">Libros: </label>
+                <select name="libro" id="listado">
+                    <option value="El señor de los anillos">El señor de los anillos</option>
+                    <option value="2">El Hobbit</option>
+                    <option value="3">Victor: El rey en el Norte</option>
+                </select>
+            </p>
+             <!--Datalist tiendas-->
+             <p>
+                <datalist id="tiendas">
+                    <option value="Diagonal mar" label="Centro comercial Diagonal Mar"></option>
+                    <option value="FNAC Diagonal" label="FNAC - Illa Diagonal"></option>
+                </datalist> 
+                <p><label>Tienda: <input type="text" name="tienda" list="tiendas"></label></p>  
+            </p>
+          
+          
+          <!--Botón-->
+            <p><input type="submit" value="Enviar"></p>
+           
+            
+           
+           
+        </form>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <p><input type="submit" value="Enviar Datos"></p> -->
+ <!-- <p><input type="text" name="edad" value="35"></p> -->

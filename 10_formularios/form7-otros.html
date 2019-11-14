@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+<body>
+    <section>
+        <form action="procesar.php" method="get" name="formulario">
+            <!--input-->
+            <p>
+                <label>Nombre: <input type="text" name="nombre" maxlength="10" required placeholder="Introduce tu nombre"></label>
+            </p>
+           <!--Color-->
+            <p><label>Color preferido: <input type="color" name="colorElegido" value="#000000"></label> </p>
+   
+          <!--Barra de progreso-->
+          <p><progress value="30" max="100">Si no se muestra</progress></p>
+            <!--Meter-->
+            <p><meter value="90" min="0"max="100" low="30" high="80" optimum="50">Si no se muestra</meter></p>
+            <!--Botón envío-->
+             <p><input type="image" src="enviar-button.png" width="100"></p>
+            <!--Botón reset-->
+           <p><button type="reset">RESET</button></p>
+        
+           
+            
+           
+           
+        </form>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

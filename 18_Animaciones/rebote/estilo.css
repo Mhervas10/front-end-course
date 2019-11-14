@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.frame {
+    height: 600px;
+    width: 600px;
+    border: 3px solid #000;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.pelota {
+    width: 100px;
+    height: 100px;
+    background-color: #467;
+    margin: 50px 0;
+    position: relative;
+    top: 600px;
+    border-radius: 50%;
+    /* definir animación */
+}
+@keyframes subirbajar {
+        /* la velocidad de bajada es superior a la de subida */
+}
+
+  
+  
+  
+  
+
+
+
+
+
+/* Transformaciones */
+
+/*
+   20%,50%,80%{
+    transform: translateY(0px);
+}
+40%{ 
+    transform: translateY(-45px);
+}
+60%{ 
+    transform: translateY(-25px);
+}*/

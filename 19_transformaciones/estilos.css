@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    background:#ddd;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+}
+
+.caja{
+    margin: 150px 15px;
+    width:150px;
+    height: 150px;
+    background: crimson;
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    transition: all 1s;
+}
+
+.caja:nth-child(1){
+
+}
+.caja:nth-child(1):hover{
+    
+}

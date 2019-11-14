@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+    <style>
+        input:invalid {
+            background-color: pink;
+        }
+        input,
+        input:valid {
+           background-color: #fafad6;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form action="procesar.php" method="get" name="formulario">
+            <!--input-->
+            <p>
+                <label>Código postal: <input pattern="[0-9]{5}" name="CP" title="Inserte código postal de 5 números"></label>
+            </p>
+            <!--Password de mínimo 6 caracteres-->
+            <p>
+                <label>Password: <input type="password" name="pw" pattern=".{6,}" title="Seis o más caracteres" required></label>
+             </p>
+             <!--Password avanzado-->
+            <p>
+                <label>Password: <input type="password" name="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener 1 número y una mayúscula y minúscula, además de mínimo de 8 caracteres" required></label>
+            </p>
+            
+        
+            <!--Botón envío-->
+             <p><input type="image" src="enviar-button.png" width="100"></p>
+            <!--Botón reset-->
+           <p><button type="reset">RESET</button></p>
+        
+           
+            
+           
+           
+        </form>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
